@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="rahulshettyacademy.TestComponent.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Error Validation Test(failed)" verbose="0">
+    <classes>
+      <class name="rahulshettyacademy.test.errorValidationsTest">
+        <methods>
+          <include name="prodcutErrorValidation"/>
+          <include name="launchApplication"/>
+          <include name="logincase"/>
+          <include name="closePage"/>
+        </methods>
+      </class> <!-- rahulshettyacademy.test.errorValidationsTest -->
+    </classes>
+  </test> <!-- Error Validation Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
